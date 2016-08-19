@@ -21,6 +21,7 @@
       <Attr Name="_AS" Value="true"/>
     </DesignTime>
   </Containee>
+
   <Containee
     Name="module"
     PackageName="com.s3.model.module"
@@ -37,4 +38,5 @@
       <Attr Name="_VO" Value="true"/>
     </DesignTime>
   </Containee>
+
 </JboProject>
