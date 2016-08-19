@@ -9,11 +9,26 @@
       <component xmlns="http://xmlns.oracle.com/adf/faces/rich/component">
         <display-name>MainPageTemplate</display-name>
         <facet>
-          <facet-name>MenuFacet</facet-name>
+          <facet-name>
+            MenuFacet
+          </facet-name>
         </facet>
         <facet>
-          <facet-name>ContentFacet</facet-name>
+          <facet-name>
+            ContentFacet
+          </facet-name>
         </facet>
+        <attribute>
+          <attribute-name>
+            title
+          </attribute-name>
+          <attribute-class>
+            java.lang.String
+          </attribute-class>
+          <required>
+            false
+          </required>
+        </attribute>
       </component>
     </af:xmlContent>
     <af:panelStretchLayout topHeight="82px" startWidth="100px" id="pt_psl2"
@@ -24,10 +39,11 @@
                              valign="middle">
           <af:panelGroupLayout id="pt_pgl2">
             <af:outputText value="S3" id="pt_ot1"
-                           inlineStyle="font-family:'Agency FB'; font-size:xx-large; color:red; font-weight:bolder;"/>
+                           inlineStyle="font-family:'Agency FB'; font-size:500.0%; color:red; font-weight:bolder;"/>
           </af:panelGroupLayout>
           <af:panelGroupLayout id="pt_pgl3" halign="right"
-                               inlineStyle="float:right;" valign="top">
+                               inlineStyle="float:right;"
+                               valign="top">
             <af:commandButton text="Logout" id="pt_cb1" action="logout"
                               rendered="true"/>
           </af:panelGroupLayout>

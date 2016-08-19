@@ -166,58 +166,23 @@
     </DesignTime>
   </Attribute>
   <AccessorAttribute
-    Name="Comment"
-    Association="com.s3.model.entity.CommentsSupervisorFkAssoc"
-    AssociationEnd="com.s3.model.entity.CommentsSupervisorFkAssoc.Comment"
-    AssociationOtherEnd="com.s3.model.entity.CommentsSupervisorFkAssoc.User"
+    Name="StudentCourseAssignment"
+    Association="com.s3.model.entity.StdCrsAsgStudentFkAssoc1ASSOC"
+    AssociationEnd="com.s3.model.entity.StdCrsAsgStudentFkAssoc1ASSOC.StudentCourseAssignment"
+    AssociationOtherEnd="com.s3.model.entity.StdCrsAsgStudentFkAssoc1ASSOC.User"
     Type="oracle.jbo.RowIterator"
     IsUpdateable="false"/>
   <AccessorAttribute
-    Name="Comment1"
-    Association="com.s3.model.entity.CommentsStudentFkAssoc"
-    AssociationEnd="com.s3.model.entity.CommentsStudentFkAssoc.Comment1"
-    AssociationOtherEnd="com.s3.model.entity.CommentsStudentFkAssoc.User1"
-    Type="oracle.jbo.RowIterator"
-    IsUpdateable="false"/>
-  <AccessorAttribute
-    Name="StudentCoursersAssignment"
-    Association="com.s3.model.entity.StdCrsAsgSupervisorFkAssoc"
-    AssociationEnd="com.s3.model.entity.StdCrsAsgSupervisorFkAssoc.StudentCoursersAssignment"
-    AssociationOtherEnd="com.s3.model.entity.StdCrsAsgSupervisorFkAssoc.User"
-    Type="oracle.jbo.RowIterator"
-    IsUpdateable="false"/>
-  <AccessorAttribute
-    Name="StudentCoursersAssignment1"
-    Association="com.s3.model.entity.StdCrsAsgStudentFkAssoc"
-    AssociationEnd="com.s3.model.entity.StdCrsAsgStudentFkAssoc.StudentCoursersAssignment1"
-    AssociationOtherEnd="com.s3.model.entity.StdCrsAsgStudentFkAssoc.User1"
-    Type="oracle.jbo.RowIterator"
-    IsUpdateable="false"/>
-  <AccessorAttribute
-    Name="SupervisorCourse"
-    Association="com.s3.model.entity.SupCrsSupervisorFkAssoc"
-    AssociationEnd="com.s3.model.entity.SupCrsSupervisorFkAssoc.SupervisorCourse"
-    AssociationOtherEnd="com.s3.model.entity.SupCrsSupervisorFkAssoc.User"
-    Type="oracle.jbo.RowIterator"
-    IsUpdateable="false"/>
-  <AccessorAttribute
-    Name="Enrollment"
-    Association="com.s3.model.entity.EnrollmentsSupervisorFkAssoc"
-    AssociationEnd="com.s3.model.entity.EnrollmentsSupervisorFkAssoc.Enrollment"
-    AssociationOtherEnd="com.s3.model.entity.EnrollmentsSupervisorFkAssoc.User"
-    Type="oracle.jbo.RowIterator"
-    IsUpdateable="false"/>
-  <AccessorAttribute
-    Name="Enrollment1"
-    Association="com.s3.model.entity.EnrollmentsStudentFkAssoc"
-    AssociationEnd="com.s3.model.entity.EnrollmentsStudentFkAssoc.Enrollment1"
-    AssociationOtherEnd="com.s3.model.entity.EnrollmentsStudentFkAssoc.User1"
+    Name="StudentCourseAssignment1"
+    Association="com.s3.model.entity.StdCrsAsgSupervisorFkAssoc1ASSOC"
+    AssociationEnd="com.s3.model.entity.StdCrsAsgSupervisorFkAssoc1ASSOC.StudentCourseAssignment1"
+    AssociationOtherEnd="com.s3.model.entity.StdCrsAsgSupervisorFkAssoc1ASSOC.User1"
     Type="oracle.jbo.RowIterator"
     IsUpdateable="false"/>
   <Key
-    Name="SysC007730">
+    Name="SysC007476">
     <DesignTime>
-      <Attr Name="_DBObjectName" Value="SYS_C007730"/>
+      <Attr Name="_DBObjectName" Value="SYS_C007476"/>
       <Attr Name="_checkCondition" Value='"USER_ID" IS NOT NULL'/>
       <Attr Name="_isCheck" Value="true"/>
     </DesignTime>
@@ -226,9 +191,9 @@
     </AttrArray>
   </Key>
   <Key
-    Name="SysC007731">
+    Name="SysC007477">
     <DesignTime>
-      <Attr Name="_DBObjectName" Value="SYS_C007731"/>
+      <Attr Name="_DBObjectName" Value="SYS_C007477"/>
       <Attr Name="_checkCondition" Value='"EMAIL" IS NOT NULL'/>
       <Attr Name="_isCheck" Value="true"/>
     </DesignTime>
@@ -237,9 +202,9 @@
     </AttrArray>
   </Key>
   <Key
-    Name="SysC007732">
+    Name="SysC007478">
     <DesignTime>
-      <Attr Name="_DBObjectName" Value="SYS_C007732"/>
+      <Attr Name="_DBObjectName" Value="SYS_C007478"/>
       <Attr Name="_checkCondition" Value='"TYPE" IS NOT NULL'/>
       <Attr Name="_isCheck" Value="true"/>
     </DesignTime>
@@ -248,9 +213,9 @@
     </AttrArray>
   </Key>
   <Key
-    Name="SysC007733">
+    Name="SysC007479">
     <DesignTime>
-      <Attr Name="_DBObjectName" Value="SYS_C007733"/>
+      <Attr Name="_DBObjectName" Value="SYS_C007479"/>
       <Attr Name="_checkCondition" Value='"CREATED_DATE" IS NOT NULL'/>
       <Attr Name="_isCheck" Value="true"/>
     </DesignTime>
@@ -259,9 +224,9 @@
     </AttrArray>
   </Key>
   <Key
-    Name="SysC007734">
+    Name="SysC007480">
     <DesignTime>
-      <Attr Name="_DBObjectName" Value="SYS_C007734"/>
+      <Attr Name="_DBObjectName" Value="SYS_C007480"/>
       <Attr Name="_checkCondition" Value='"MODIFIED_DATE" IS NOT NULL'/>
       <Attr Name="_isCheck" Value="true"/>
     </DesignTime>
@@ -270,9 +235,9 @@
     </AttrArray>
   </Key>
   <Key
-    Name="SysC007735">
+    Name="SysC007481">
     <DesignTime>
-      <Attr Name="_DBObjectName" Value="SYS_C007735"/>
+      <Attr Name="_DBObjectName" Value="SYS_C007481"/>
       <Attr Name="_checkCondition" Value='"DATE_OF_BIRTH" IS NOT NULL'/>
       <Attr Name="_isCheck" Value="true"/>
     </DesignTime>
