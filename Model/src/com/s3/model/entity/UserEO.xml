@@ -179,6 +179,48 @@
     AssociationOtherEnd="com.s3.model.entity.StdCrsAsgSupervisorFkAssoc1ASSOC.User1"
     Type="oracle.jbo.RowIterator"
     IsUpdateable="false"/>
+  <AccessorAttribute
+    Name="SupervisorCourse"
+    Association="com.s3.model.entity.SupCrsSupervisorFkAssoc"
+    AssociationEnd="com.s3.model.entity.SupCrsSupervisorFkAssoc.SupervisorCourse"
+    AssociationOtherEnd="com.s3.model.entity.SupCrsSupervisorFkAssoc.User"
+    Type="oracle.jbo.RowIterator"
+    IsUpdateable="false"/>
+  <AccessorAttribute
+    Name="Enrollment1"
+    Association="com.s3.model.entity.EnrollmentsStudentFkAssoc"
+    AssociationEnd="com.s3.model.entity.EnrollmentsStudentFkAssoc.Enrollment1"
+    AssociationOtherEnd="com.s3.model.entity.EnrollmentsStudentFkAssoc.User1"
+    Type="oracle.jbo.RowIterator"
+    IsUpdateable="false"/>
+  <AccessorAttribute
+    Name="Enrollment"
+    Association="com.s3.model.entity.EnrollmentsSupervisorFkAssoc"
+    AssociationEnd="com.s3.model.entity.EnrollmentsSupervisorFkAssoc.Enrollment"
+    AssociationOtherEnd="com.s3.model.entity.EnrollmentsSupervisorFkAssoc.User"
+    Type="oracle.jbo.RowIterator"
+    IsUpdateable="false"/>
+  <AccessorAttribute
+    Name="Comment1"
+    Association="com.s3.model.entity.CommentsStudentFkAssoc"
+    AssociationEnd="com.s3.model.entity.CommentsStudentFkAssoc.Comment1"
+    AssociationOtherEnd="com.s3.model.entity.CommentsStudentFkAssoc.User1"
+    Type="oracle.jbo.RowIterator"
+    IsUpdateable="false"/>
+  <AccessorAttribute
+    Name="Comment"
+    Association="com.s3.model.entity.CommentsSupervisorFkAssoc"
+    AssociationEnd="com.s3.model.entity.CommentsSupervisorFkAssoc.Comment"
+    AssociationOtherEnd="com.s3.model.entity.CommentsSupervisorFkAssoc.User"
+    Type="oracle.jbo.RowIterator"
+    IsUpdateable="false"/>
+  <AccessorAttribute
+    Name="StudentCoursersAssignment1"
+    Association="com.s3.model.entity.StdCrsAsgStudentFkAssoc"
+    AssociationEnd="com.s3.model.entity.StdCrsAsgStudentFkAssoc.StudentCoursersAssignment1"
+    AssociationOtherEnd="com.s3.model.entity.StdCrsAsgStudentFkAssoc.User1"
+    Type="oracle.jbo.RowIterator"
+    IsUpdateable="false"/>
   <Key
     Name="SysC007476">
     <DesignTime>
